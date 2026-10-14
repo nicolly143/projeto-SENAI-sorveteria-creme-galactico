@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Bricolage Grotesque", sans-serif;
 }
+
 
 .header_cabecalho_3 {
     background-color: #15102f;
@@ -25,24 +26,126 @@
 
 }
 
-.box_container_3 a{
+.box_container_3 a {
     color: aliceblue;
     padding: 16px;
     margin-left: 138px;
-position: relative;top: -21;
+    position: relative;
+    top: -21;
 
 }
 
-.cabecalho_3 img {
-    height: 39px;
-}
 
-body{
+
+body {
+
     background-color: #d7ff62;
     min-height: 100vh;
     width: 100%;
 }
 
+.box3 {
+    margin: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.box3 h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 62px;
+
+}
+
+.img3 {
+    width: 150px;
+
+}
+
+
+.p1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.p2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.p3 {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.box3 a {
+    margin-top: 20px;
+    background-color: #15102f;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 12px 40px;
+    justify-content: space-around;
+    border: none;
+}
 
 
 
+
+
+/* --------------FINAL------------------ */
+
+footer {
+    background-color: #15102f;
+    height: 100%;
+    width: 100%;
+    margin-top: 80px; 
+
+}
+
+.box_info3{
+display: flex;
+justify-content:space-evenly;
+     transform: translate(900px, -15px);
+    max-width: 406px;
+    font-size: 11px;
+
+}
+
+
+.footer_banner3 {
+    color: #ffffff;
+    padding: 18px;
+
+}
+
+.footer_banner3 span {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-top: -7px;
+    transform: translate(-96px, 0px);
+}
+
+.box_info3 a {
+    color: aliceblue;
+}
+
+
+.footer_banner3 small {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    transform: translate(-5px, -29px);
+}
+.svg3{
+    transform: translate(14px, 30px);
+    width: 220px;
+}
