@@ -22,7 +22,11 @@
     margin: 0 auto;
     width: 97%;
     justify-content: space-between;
+}
 
+.footer_banner3 img,
+.cabecalho_3 img {
+    width: 172px;
 
 }
 
@@ -218,15 +222,6 @@ footer {
         margin: 19px;
     }
 
-}
-
-
-
-
-/* -------media2------- */
-
-@media (max-width:661px) {
-
     .sorvete svg {
         display: flex;
         max-width: 95px;
@@ -238,5 +233,4 @@ footer {
     .box_container_3 a {
         display: none;
     }
-
 }
